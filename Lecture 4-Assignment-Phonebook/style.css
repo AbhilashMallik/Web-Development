@@ -1,0 +1,25 @@
+*{
+    background-color:#f8edeb ;
+    }
+
+h2{
+    background-color: royalblue;
+    border: 2 px solid black;
+    margin: 20 px;
+    position: sticky;
+    top: 1px;
+
+    
+}
+li::before {
+
+    content: "\2706";
+}
+
+li{
+    list-style: none;
+}
+
+a{
+color: palevioletred;
+}
