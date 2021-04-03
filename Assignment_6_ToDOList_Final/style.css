@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+      0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333533;
+    color: white;
+    height: 650px;
+    border-radius: 20px;
+  }
+  .container div:nth-of-type(1) h2 {
+    text-align: center;
+    margin: 40px;
+  }
+  .container div:nth-of-type(1) span {
+    text-align: center;
+    margin-left: 10px;
+    color: #ef233c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .container div:nth-of-type(1) button {
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container div:nth-of-type(1) button:hover {
+    transform: scale(1.02);
+  }
+  .container div:nth-of-type(3) ul {
+    list-style: none;
+  }
+  
+  .container div:nth-of-type(3) ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+  }
+  .container div:nth-of-type(3) ul li input[type="checkbox"] {
+    margin-right: 20px;
+  }
+  
+  .container div:nth-of-type(3) ul li button {
+    margin-left: 100px;
+  }
+  
+  .container div:nth-of-type(3) ul li #upbtn {
+    border: none;
+    padding: 0;
+    background-color: #333533;
+    color: #70e000;
+    margin-left: 40px;
+  }
+  .container div:nth-of-type(3) ul li #dnbtn {
+    border: none;
+    padding: 0;
+    background-color: #333533;
+    color: #89c2d9;
+    margin-left: 40px;
+  }
+  
+  .container div:nth-of-type(3) ul li #deletebtn {
+    border: none;
+    padding: 0;
+    background-color: #333533;
+    margin-left: 40px;
+    color: #ef233c;
+  }
+  
+  .container div:nth-of-type(3) ul li #updatebtn {
+    border: none;
+    padding: 0;
+    background-color: #333533;
+    margin-left: 40px;
+    color: #fcbf49;
+  }
+  
